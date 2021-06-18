@@ -1,6 +1,10 @@
 /*
 Estilos da página index.html
 */
+    .cor-fundo{
+        background-color:rgb(201, 195, 216);
+    }
+
     .p1 {
     font-size: 24px;
     }
@@ -8,6 +12,11 @@ Estilos da página index.html
     .center {
     text-align: center;
     }
+    .titulo{
+        text-align: center;
+        color:mediumvioletred;
+    }
+
     /*configurações da imagem */
     .br-50{
         border-radius: 50%;
@@ -57,6 +66,20 @@ Estilos da página index.html
         text-align: justify;
     }
 
+    .anime {
+        color:lightblue;
+        justify-content: center;
+        width: 200px;
+        height: 30px;
+        background-color:indianred;
+        animation-name: example;
+        animation-duration: 5s;
+      }
+      
+      @keyframes example {
+        from {background-color:indianred;}
+        to {background-color: rgb(70, 6, 36);}
+      }
 
 /*
 Estilos da página contatohtml
@@ -64,4 +87,8 @@ Estilos da página contatohtml
 
 .ml-100{
     margin-left: 100px;
+}
+
+.cor-fundo2{
+    background-color:rgb(46, 236, 236);
 }
