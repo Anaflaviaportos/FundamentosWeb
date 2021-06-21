@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body class="cor-fundo2">
+
+    <ul id="menu">
+        <li>
+        <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+            </li>
+    </ul>
+
+    <h1 class="titulo">Entre em contato comigo!</h1>
+
+    <div class="container">
+        <div>
+            <img src="assets/img/Moana.JPG" alt="Menina fantasiada de um personagem fazendo sinal de duvida">
+        </div>
+
+        <div class="ml-100">
+            <h2>Que tal um feedback?</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id ='txtNome'></div>
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id = 'txtEmail'></div>
+                <br>
+                <label for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="45" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id = 'txtAssunto'></div>
+                <br>
+                <br>
+                <button onclick="enviar()">Enviar!</button>
+            </form>
+        </div>
+
+    </div>
+  
+    <hr>
+<footer>
+
+    <div class="container mb-50">
+        <a href="https://br.pinterest.com/" target="_blank">
+        <img class="tm-ilus p40" src="assets/img/criative.png" alt="ilustração sobre criatividade">
+        </a>
+
+        <a href="https://flexboxfroggy.com/"target="_blank">
+        <img class="tm-ilus p40" src="assets/img/express.png" alt="ilustração sobre se expressar">
+        </a>
+
+        <a href="https://www.instagram.com/"target="_blank">
+        <img class="tm-ilus p40" src="assets/img/idea.png" alt="ilustração sobre ideias">
+        </a>
+
+        <a href="https://www.w3schools.com/css/css3_flexbox_container.asp"target="_blank">
+        <img class="tm-ilus p40" src="assets/img/mind.png" alt="ilustração sobre abrir a mente">
+        </a>
+    </div>
+
+
+    <p class="center">Todos os direitos reservados à: Ana Flavia Porto &copy</p> 
+</footer>
+
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
