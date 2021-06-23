@@ -9,9 +9,11 @@
 <!--Links necessarios para acessar os servidores do bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-<!--Menu de Navegação da pagina-->
+
 </head>
-<body>
+<body class="bg-secondary bg-gradiente">
+
+<!--Menu de Navegação da pagina-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand text-danger" href="#">
@@ -55,9 +57,11 @@
 
 <!--Grid de organização das colunas Principais-->
 <div class="container">
-    <div class="row mt-5">
+    <div class="row">
         <div class="col-sm-8 p-0">
-            <div class="bg-secondary">imagem grande</div>
+            <div class="bg-secondary">
+                <img src="assets/img/HORTI.jpg" class="img-fluid img-thumbnail" alt="Imagem inlustrativa">
+            </div>
         </div>
         <div class="col-sm-4 p-0">
             <div class="bg-danger">Formulário</div>
@@ -65,21 +69,103 @@
     </div>
   </div> 
 
+  <br>
+  <br>
+  <br>
+
   <!--Grid de organização das colunas produtos-->
   <div class="container">
-    <div class="row mt-5">
-        <div class="col-sm">Produto1</div>
-        <div class="col-sm">Produto2</div>
-        <div class="col-sm">Produto3</div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-sm">Produto4</div>
-      <div class="col-sm">Produto5</div>
-      <div class="col-sm">Produto6</div>
-    </div>  
-  </div>
- 
+    <div class="row">
+        <div class="col-sm-4">
+          <!--Carrocel 1-->  
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/BAL 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Balança Computadora LED TOUCH</h5>
+                      <p class="card-text">Capacidade DCL 6/15/35kg - Selo Inmetro</p>
+                      <a href="#" class="btn btn-primary">Mais informações</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/BAL 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Balança Digital 
+                        Atena II</h5>
+                      <p class="card-text">Capacidade de 35kg com precisão de 2g</p>
+                      <a href="#" class="btn btn-primary">Mais informações</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/bal 9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Balança Antropométrica 6 Digitos</h5>
+                      <p class="card-text">Capacidade de pesagem de 200 ou 300 kg</p>
+                      <a href="#" class="btn btn-primary">Mais informações</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div> 
 
+        <div class="col-sm-4">
+            <iframe width="460" height="215" src="https://www.youtube.com/embed/msgVJQTyRQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                No vídeo vemos o novo lançamento de um dos nossos Parceiros
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellat recusandae ducimus ipsa adipisci quos officiis quidem distinctio voluptatem deserunt repudiandae modi illum a quasi corporis doloremque praesentium, voluptatibus tenetur!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ipsum quasi officia accusantium laborum quo ullam obcaecati eum omnis. Tempora consequuntur vel assumenda maxime dolor quo necessitatibus eos nemo fugit!
+            </p>
+        </div>
+        <div class="col-sm-4">Produto3
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+
+
+
+
+<hr>
+<footer>
+    <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+        <a href="https://www.whatsapp.com/?lang=pt_br"target="_blank">
+        <img class="tm-ilus img-thumbnai p-3" src="assets/img/logoWhats.png" alt="ilustração sobre se expressar">
+        </a>
+
+        <a href="https://www.instagram.com/"target="_blank">
+        <img class="tm-ilus img-thumbnai p-3" src="assets/img/logoinsta.jpg" alt="ilustração sobre ideias">
+        </a>
+
+        <a href="https://www.facebook.com/"target="_blank">
+        <img class="tm-ilus img-thumbnai p-3" src="assets/img/logoface.jpg" alt="ilustração sobre abrir a mente">
+        </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+        <p class="text-center">EPS Representações &copy</p>
+        </div>
+    </div>
+</footer>
 
 
 <!--Scripts necessarios para utilizar os códigos JS do bootstrap-->
